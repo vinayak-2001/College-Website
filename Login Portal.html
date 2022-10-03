@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Admission : Login</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/online-admission-style.css">
+    <link rel="stylesheet" type="text/css" href="css/online-admission-theme1.css">
+    <script type="text/javascript">
+        function preventBack(){window.history.forward();}
+        setTimeout("preventBack()",0);
+        window.onunload = function (){null};
+    </script>
+</head>
+<body>
+    <div class="form-body" ng-app="myApp" ng-controller="loginServicesCtrl" ng-init="init()" ng-keypress="($event.which === 13)?loginService():0">
+        <div class="website-logo" >
+            <a href="index.html">
+                <div class="logo">
+                    <img class="logo-size" src="images/logo.png" alt="">
+                </div>
+                
+            </a>
+            <div >
+                <h2 style="color: white;">M U College of Commerce</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Online Admission</h3>
+                        <!-- <p>Access to the most powerfull tool in the entire design and web industry.</p> -->
+                        <div class="page-links">
+                            <a href="index.html" class="active">Login</a><a href="register.html">Register</a>
+                        </div>
+                        <form name="form">
+                            <input class="form-control" type="text" name="studEmail" ng-model="studEmail" id="studEmail" placeholder="E-mail Address"  ng-required="required" />
+                            
+                            <input class="form-control" type="password" name="studPassword" ng-model="studPassword" placeholder="Password" id="studPassword" required ng-minlength="6" ng-maxlength="25" ng-required="required"/>
+                            <label><b>Note* : Filling this form does not mean your admission is confirmed.</b></label>
+                            <!--<label><b>Note* : Admission for the First Year B.B.A.(CA) shall be confirmed subject to the class strength of minimum 50 students, failing which the course   shall not commence and your registration fees will be refunded.</b></label>-->
+                            <div class="form-button">
+                                <a  id="submit" type="button" ng-click="loginService()" class="ibtn">Login</a>
+                                <a href="forget.html" style="font-size: inherit;">Forget Password?</a>
+                            </div>
+                            <div class="form-button">
+                                Don't have an account?  <a href="register.html" style="font-size: inherit;padding-left: 4px;">   Register Now</a>
+                            </div>
+                        </form>
+                        <!-- <div class="other-links">
+                            <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular/ui-bootstrap-tpls-1.0.3.js"></script>
+    <!-- toastr -->
+    <script src="assets/angular/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="assets/angular/angular-toastr.css" />
+
+    <script src="assets/angular/angularjs/app.js"></script>
+    <!-- app.js -->
+
+    <script src="assets/angular/angularjs/controllers/login.js"></script>
+</body>
+</html>
