@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainer{
+    width: 500px;
+    height: 75%;
+    background-color: white;
+    border:2px solid white;
+    border-radius:12px 12px 12px 12px;
+}
+.text{
+    /* border: 1px solid; */
+    height:85px;
+    text-align: center;
+    font-size: 23px;
+    margin-top:7px;
+}
+.user{
+    /* border: 1px solid; */
+    height:85px;
+   font-size: 25px;
+    margin-top:10px;
+    
+}
+.user input{
+    width:100%;
+    height:75%;
+     font-size: 30px;
+     border-top-style: hidden;
+     border-right-style: hidden;
+     border-left-style: hidden;
+     border-bottom-style: groove transparent;
+     background-color: #eee;
+     outline: none;
+     background-color: white;
+     
+     
+}
+.slider{
+    width:100%;
+    height:75%;
+     font-size: 30px;
+     border-top-style: hidden;
+     border-right-style: hidden;
+     border-left-style: hidden;
+     border-bottom-style: groove transparent;
+     background-color: #eee;
+     outline: none;
+     background-color: white;
+}
+.fp{
+    /* border: 1px solid; */
+    height: 40px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+button{
+    height:53px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 22px;
+}
