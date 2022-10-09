@@ -1,6 +1,6 @@
-# College-Website
+# **College-Website**
 
-This is source code of frontend of my college website made using HTML, CSS, Javascript
+<h3>This is source code of frontend of my college website made using HTML, CSS, Javascript</h3>
 
 <div align="center">
 <h1> College Website </h1>
@@ -10,15 +10,13 @@ This is source code of frontend of my college website made using HTML, CSS, Java
 </div>
 
 
+- Anyone can add any type of <b>valid html-css</b> web page depends on you.
 
+- Do not just <b>re-edit</b> the file or make <b>some small changes</b> this kind of PRs will not be accepted.
 
-- Anyone can add any type of valid html-css web page depends on you.
+- Do not add <b>anyone else's work</b> in this repository. It will leads to failure of your pull request.
 
-- Do not just re-edit the file or make some small changes this kind of PRs will not be accepted.
-
-- Do not add anyone else's work in this repository. It will leads to failure of your pull request.
-
-
+<br>
 
 
 
