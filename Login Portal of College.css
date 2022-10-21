@@ -1,0 +1,203 @@
+ * {
+            margin: 0%;
+            padding: 0%;
+         }
+
+         body{
+	    
+	     background-size:cover;
+	     background-blend-mode:darken;
+	     display:flex;
+		 align-items:center;
+		 justify-content:center;
+		
+		 }
+
+         .card{
+	     display:flex;
+		 justify-content:center;
+		 align-items: center;
+	     position:relative;
+		 width:580px;
+	     height:650px;
+		 background:#fff;
+		 border-radius:10px;
+		 background:rgba(255,255,255,0.1);
+		 border-top:1px solid rgba(255,255,255,0.5);
+		 backdrop-filter:blur(15px);
+		 box-shadow:0 15px 25px rgba(0,0,0,0.1);
+		 
+    	}
+
+         .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-style input {
+            border: 0px;
+            height: 50px;
+            border-radius: 10px;
+            border-bottom: 1px solid #ebebeb;
+            padding: 10px;
+            margin: 7px;
+            width:100%;
+        }
+
+        .form-style input:focus {
+            border: 0px;
+            box-shadow: none;
+            height: 50px;
+            outline: 0px;
+            height: 30px;
+            border-radius: 10px;
+            border-bottom: 3px solid #ea8383;
+            padding: 10px;
+
+        }
+
+        .heading {
+            margin-right: 85px;
+            font-weight: 900px;
+            font-size: 30px;
+            font-family: "Gabriola", Times, serif;
+            letter-spacing: 2px;
+        }
+
+        .emailbox {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .eheading {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 1px;
+            margin-left: 110px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .pheading {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 1px;
+            margin-left: 110px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .check input {
+            width: 20px;
+        }
+
+        .check input:focus {
+            width: 20px;
+            border: 2px solid blue;
+        }
+
+        .block1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .check {
+            display: flex;
+            align-items: center;
+            margin:10px;
+            margin-right: 110px;
+        }
+
+        .forget {
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .submit {
+            background-color: rgb(5, 5, 39);
+            color: aliceblue;
+            padding: 10px;
+            width: 450px;
+            margin: 10px;
+            border: 0px solid black;
+            border-radius: 5px;
+        }
+
+        .sideline {
+            color: rgb(158, 156, 156);
+        }
+
+        .facebook img {
+            width: 40px;
+        }
+
+        .facebook button {
+            background-color: blue;
+            color: aliceblue;
+            padding: 2px;
+            width: 450px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 0px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line {
+            width: 200px;
+            margin: 0px 10px;
+        }
+
+
+
+
+        @media only screen and (max-width:700px){
+        .card{
+		        width:400px;
+			    margin:5%;
+        }
+
+        .form-style input {
+            height: 40px;
+            padding:7px;
+            margin-left:60px;
+            width:70%;
+        }
+        .form-style input:focus { 
+            height: 40px;
+            border-radius: 10px;
+            padding: 7px;
+        }
+        .heading {
+            padding: 10px;
+            margin-right: 0%;
+        }
+        .check input {
+            width:15px;
+        }
+        .check {
+            margin:10px;
+            margin-right:70px;
+        }
+		
+        .submit-btn button{
+             width:80%;
+             margin-left:45px;
+        }
+        .facebook button {
+            width:80%;
+             margin-left:45px;
+        }
+        .line {
+            width:90%;
+            margin: 0px 10px;
+        }
+       
+
+        }
