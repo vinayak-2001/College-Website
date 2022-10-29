@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #6495ed;
+  color: #fff;
+  overflow: hidden;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #228b22;
+  color: #fff;
+}
+
+#press {
+  background-color: #db7093;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#openjobs {
+  background-color: #faebd7;
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+  background-color: #800080;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.apply-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-bottom: -40%;
+  margin-left: 30%;
+}
+.title-image1 {
+  width: 60%;
+  transform: rotate(335deg);
+  margin-bottom: -60%;
+  margin-right: 30%;
+}
+
+.feature-image {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.carousel-item {
+  padding: 7% 1%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 40px 20px 20px 50px;
+}
+
+.open-job1 {
+  padding: 3% 2% 2%;
+}
+
+.mast {
+  margin-bottom: 57px;
+}
+
+.custom-image {
+  width: 100%;
+  position: static;
+}
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+  }
